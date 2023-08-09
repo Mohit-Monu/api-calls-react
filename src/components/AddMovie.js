@@ -18,8 +18,8 @@ function AddMovie(props) {
       releaseDate: releaseDateRef.current.value,
     };
 
-    // props.onAddMovie(movie);
-    console.log(movie)
+    props.onAddMovie(movie);
+    // console.log(movie)
   }
 
   return (
